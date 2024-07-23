@@ -1,0 +1,104 @@
+/* Estilos personalizados */
+.table-custom {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+  }
+  
+  .table-custom th,
+  .table-custom td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .table-custom thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+  }
+  
+  .table-custom tbody + tbody {
+    border-top: 2px solid #dee2e6;
+  }
+  
+  .table-custom .table {
+    margin-bottom: 0;
+  }
+  
+  /* Estilos de Bootstrap */
+  .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212829;
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+  }
+  
+  .table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+  }
+  
+  .table .table {
+    background-color: #fff;
+  }
+  
+  /* Estilos para los elementos de formulario dentro de la tabla */
+  .table input[type="time"],
+  .table select {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  /* Ajustes para elementos de formulario en dispositivos pequeños */
+  @media (max-width: 576px) {
+    .table input[type="time"],
+    .table select {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    select {
+      width: 100%; /* Ancho del select al 100% en pantallas pequeñas */
+    }
+  }
+  .select-container {
+    display: flex;
+  }
+  
+  select {
+    flex: 1; /* Distribuye el espacio disponible entre los selects */
+  }
+     
+  .container {
+    margin: 0 auto; /* Aplica márgenes automáticos para centrar horizontalmente */
+    max-width: 600px; /* Limita el ancho máximo del contenedor */
+    border-radius: 10px; /* Redondea los bordes del contenedor */
+    padding: 20px; /* Agrega relleno al contenedor */
+    background-color: #f4f4f4; /* Color de fondo opcional */
+  }
+
+  .form-control {
+    width: 100%; /* Ancho del select al 100% del contenedor padre */
+    max-width: 100%; /* Ancho máximo del select al 100% del contenedor padre */
+  }
+  
+  

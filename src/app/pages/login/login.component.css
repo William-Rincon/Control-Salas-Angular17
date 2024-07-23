@@ -1,0 +1,22 @@
+
+.small-text {
+    font-size: 0.875rem; /* Tamaño de texto ajustado */
+}
+.card-login {
+    max-width: 1000px; /* Aumenta el ancho máximo de la tarjeta */
+    margin: auto;
+    border-radius: 1rem;
+    background: linear-gradient(60deg, rgb(219, 228, 230) 0%, rgb(147, 227, 243) 35%, rgb(244, 244, 250) 100%);
+}
+.vertical-line {
+    border-left: 1px solid #fff;
+    height: 100%;
+}
+.form-label {
+    font-size: 1rem; /* Ajusta el tamaño del label */
+}
+.logo-svg {
+    max-width: 100px; /* Ajusta el tamaño del logo */
+    height: auto;
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+}

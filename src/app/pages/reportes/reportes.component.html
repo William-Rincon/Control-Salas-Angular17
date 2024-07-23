@@ -1,0 +1,371 @@
+<p>reportes works!</p>
+
+<div class="d-flex">   
+  <app-footer></app-footer>
+<div class="logo">UPB</div>
+<div class="d-flex">
+  <div class="container">
+    <table class="table table-custom">
+      <thead>
+        <tr>
+          <th colspan="2"><h4>Formulario de Registro</h4></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td width="150"><b>Hora Inicial</b></td>
+          <td>
+            <input
+              type="time"
+              name="d_horaini"
+              required
+              class="form-control"
+              min="06:00:00"
+              max="22:59:59"
+              step="600"
+              id="d_horaini"
+              value=""
+            />
+          </td>
+        </tr>
+        <tr>
+          <td width="150"><b>Hora Final</b></td>
+          <td>
+            <input
+              type="time"
+              name="d_horafin"
+              required
+              class="form-control"
+              min="06:00:00"
+              max="22:59:59"
+              step="600"
+              id="d_horafin"
+              value=""
+            />
+          </td>
+        </tr>
+        <tr>
+          <td width="150"><b>Aula</b></td>
+          <td>
+            <select name="n_idaula" required class="form-control">
+              <option value="">Seleccione...</option>
+              <option value="12">Aula Biblioteca</option>
+              <option value="46">B301</option>
+              <option value="47">B302</option>
+              <option value="48">B303</option>
+              <option value="49">B305</option>
+              <option value="29">C-102 LABORATORIO. FINANCIERO</option>
+              <option value="44">CDT</option>
+              <option value="1">D-300</option>
+              <option value="2">D-301</option>
+              <option value="3">D-302</option>
+              <option value="4">D-303</option>
+              <option value="5">D-304</option>
+              <option value="6">D-305</option>
+              <option value="7">D-403</option>
+              <option value="8">D-404</option>
+              <option value="18">D-405</option>
+              <option value="34">D300</option>
+              <option value="42">I-104 Plantas Térmicas</option>
+              <option value="15">
+                I-201 Laboratorio Redes y Seguridad Informática
+              </option>
+              <option value="31">
+                I-201 Laboratorio Redes y Seguridad Informática
+              </option>
+              <option value="16">
+                I-202 Laboratorio Desarrollo de Software y Base de Datos
+              </option>
+              <option value="17">I-203 Laboratorio Sistemas Operativos</option>
+              <option value="32">I-203 Laboratorio Sistemas Operativos</option>
+              <option value="50">J404</option>
+              <option value="53">K-102</option>
+              <option value="45">K-103 Laboratorio de Máquinas</option>
+              <option value="19">K-203</option>
+              <option value="20">K-204</option>
+              <option value="21">K-205</option>
+              <option value="22">K-206</option>
+              <option value="24">
+                K-213 Aula de Trabajo Activo Automatización
+              </option>
+              <option value="25">K-214 Centro Control Automatización</option>
+              <option value="26">K-214 Zona Prototipos Automatización</option>
+              <option value="28">K-501</option>
+              <option value="9">K-519</option>
+              <option value="10">K-520</option>
+              <option value="11">K-521</option>
+              <option value="43">K-605</option>
+              <option value="40">K302 laboratorio de instrumentacion</option>
+              <option value="38">K305 laboratorio de biomedica</option>
+              <option value="39">K306 laboratorio de control</option>
+              <option value="37">K309 laboratorio de comunicaciones</option>
+              <option value="30">K510</option>
+              <option value="33">K603</option>
+              <option value="54">L-303</option>
+              <option value="27">L203</option>
+              <option value="35">L204</option>
+              <option value="36">L302</option>
+              <option value="51">L304</option>
+              <option value="52">L305</option>
+              <option value="41">L601</option>
+              <option value="13">MAC K-506</option>
+              <option value="14">MAC K-509</option>
+              <option value="23">MAC K-516</option>
+              <!-- Opciones del select -->
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td width="150"><b>Software Utilizado</b></td>
+          <td>
+            <select name="n_idsoftware" required class="form-control">
+              <option value="">Seleccione...</option>
+              <option value="90">Administrador SIMATIC STEP 7 Siemens</option>
+              <option value="159">Adobe Ilustrator</option>
+              <option value="160">Adobe Photoshop</option>
+              <option value="144">Android Studio</option>
+              <option value="1">ANSYS</option>
+              <option value="2">ARC GIS</option>
+              <option value="122">ARDUINO</option>
+              <option value="3">ARENA</option>
+              <option value="131">ArgoUML V0.34</option>
+              <option value="97">Aspen HYSYS Dynamics</option>
+              <option value="96">aspenONE</option>
+              <option value="95">aspenONE for universities HYSYS</option>
+              <option value="4">ATLAS TI</option>
+              <option value="73">AUDITION</option>
+              <option value="5">AUTOCAD</option>
+              <option value="106">AUTOCAD Architecure - Autodesk</option>
+              <option value="107">AUTOCAD Inventor - Autodesk</option>
+              <option value="155">Blender</option>
+              <option value="6">BREEZE</option>
+              <option value="7">C#</option>
+              <option value="8">C++</option>
+              <option value="9">CABRI 3D v2</option>
+              <option value="10">CABRI GEOMETRE II PLUS</option>
+              <option value="11">CAMSTUDIO</option>
+              <option value="123">Cisco Packet Tracer V7.0</option>
+              <option value="71">CIVIL 3D</option>
+              <option value="12">CMAP TOOLS</option>
+              <option value="129">Cmap Tools V6.01</option>
+              <option value="13">COM TEST</option>
+              <option value="14">CONSTRUPLAN</option>
+              <option value="15">COREL DRAW</option>
+              <option value="16">DATASTUDIO</option>
+              <option value="140">DB Browser for SQLite</option>
+              <option value="104">DDCON 100</option>
+              <option value="17">DEV C++</option>
+              <option value="85">
+                Development Studio Educ- Archestra Wonderware
+              </option>
+              <option value="87">
+                Development Studio Educ- Intouch Wonderware
+              </option>
+              <option value="86">
+                Development Studio Educ- System Management Console Wonderware
+              </option>
+              <option value="18">DFD</option>
+              <option value="19">EAGLE</option>
+              <option value="150">Easy Recovery Ontrack Pro v11.5</option>
+              <option value="20">ECLIPSE</option>
+              <option value="114">ECONOMATICA</option>
+              <option value="119">EDGE</option>
+              <option value="171">EdMES HAS 200</option>
+              <option value="83">
+                EDU Classroom Toolkit - RsLogix Emulator 5000
+              </option>
+              <option value="80">
+                EDU Classroom Toolkit - FactoryTalk View ME Allen Bradley
+              </option>
+              <option value="81">
+                EDU Classroom Toolkit - FactoryTalk View SE Allen Bradley
+              </option>
+              <option value="79">EDU Classroom Toolkit - Logix 5000</option>
+              <option value="76">EDU Classroom Toolkit - RsLinx</option>
+              <option value="77">EDU Classroom Toolkit - RsLogix 500</option>
+              <option value="78">EDU Classroom Toolkit - RsLogix 5000</option>
+              <option value="82">
+                EDU Classroom Toolkit - RsLogix Emulator 500
+              </option>
+              <option value="84">EDU Classroom Toolkit - RsView</option>
+              <option value="176">EES</option>
+              <option value="162">Epic Games Launcher</option>
+              <option value="105">Factory Design Suite - Autodesk</option>
+              <option value="133">Filezilla Client</option>
+              <option value="72">FINAL CUT</option>
+              <option value="117">FINAL PRO</option>
+              <option value="177">flexsim</option>
+              <option value="21">FOXIT DFD</option>
+              <option value="22">FREEMIND</option>
+              <option value="23">GAMS</option>
+              <option value="24">GAUSSIAN</option>
+              <option value="25">GEO ENZO</option>
+              <option value="26">GEO STUDIO</option>
+              <option value="27">GEOGEBRA</option>
+              <option value="28">HEC</option>
+              <option value="146">Hyperterminal</option>
+              <option value="120">HYSIS</option>
+              <option value="110">ILLUSTRATOR</option>
+              <option value="111">INDESIGN</option>
+              <option value="157">Inkscape</option>
+              <option value="29">INPACO</option>
+              <option value="30">INTERACTIVE PHYSICS</option>
+              <option value="68">INTERNET</option>
+              <option value="158">Kodu Game Lab</option>
+              <option value="174">LABVIEW</option>
+              <option value="31">LEKIN</option>
+              <option value="88">LOGO! Soft Comfort Siemens</option>
+              <option value="32">MATHEMATICAS</option>
+              <option value="33">MATLAB</option>
+              <option value="138">MatLab R2015b</option>
+              <option value="34">MGA METODOLOGIA GENERAL AJUSTADA</option>
+              <option value="126">Microsoft Office Project v2016</option>
+              <option value="167">Microsoft Office V2016</option>
+              <option value="127">Microsoft Office Visio v2016</option>
+              <option value="128">
+                Microsoft Visual Studio Community v2015
+              </option>
+              <option value="151">MikText</option>
+              <option value="35">MINITAB</option>
+              <option value="36">MODEL CHEMLAB</option>
+              <option value="69">MOODLE</option>
+              <option value="37">MP LAB</option>
+              <option value="164">MySQL Workbench</option>
+              <option value="38">NETBEANS</option>
+              <option value="137">Netbeans IDE</option>
+              <option value="148">Nmap</option>
+              <option value="39">OFFICE</option>
+              <option value="109">OPUS</option>
+              <option value="136">Oracle DB</option>
+              <option value="135">Oracle VM VirtualBox</option>
+              <option value="40">PACKT TRACER</option>
+              <option value="41">PARABEN</option>
+              <option value="175">Pasco Capstone</option>
+              <option value="42">PASSWORD RECOVERY TOOLKIT</option>
+              <option value="112">PAVEMENT</option>
+              <option value="161">PhoneGap</option>
+              <option value="70">PHOTOSHOP</option>
+              <option value="165">PostgreSQL</option>
+              <option value="43">PRIMAVERA</option>
+              <option value="44">PROJECT</option>
+              <option value="45">PROMESS</option>
+              <option value="46">PROMODEL</option>
+              <option value="121">Proteus</option>
+              <option value="113">PSIM</option>
+              <option value="147">Putty</option>
+              <option value="74">PYTHON</option>
+              <option value="142">Python GUI v3.5</option>
+              <option value="141">Python IDLE GUI v2.7</option>
+              <option value="173">Revit</option>
+              <option value="75">RISK SIMULATOR</option>
+              <option value="103">
+                S7-Distributed Safety V5.4 SP5 Siemens
+              </option>
+              <option value="108">S7NETLINK</option>
+              <option value="47">SAP 2000</option>
+              <option value="101">SCADA VJC109141 Scheider Electric</option>
+              <option value="118">SIMAPRO</option>
+              <option value="102">SIMATIC PID Control CE Siemens</option>
+              <option value="168">SIMULADOR GERENCIAL</option>
+              <option value="169">SIMULADOR GERENCIAL</option>
+              <option value="156">SketchUP v2017</option>
+              <option value="48">SNIFFY</option>
+              <option value="49">SOLARWINDS</option>
+              <option value="50">SOLID WORK</option>
+              <option value="51">SPSS</option>
+              <option value="124">SPSS MODELER</option>
+              <option value="154">SQL Server Management v2014</option>
+              <option value="130">StarUML v2.8</option>
+              <option value="89">STEP 7 MicroWIN Siemens</option>
+              <option value="166">Sublime Text</option>
+              <option value="52">SUITE ADOBE</option>
+              <option value="125">Suite Microsoft Office v2016</option>
+              <option value="53">SURFER</option>
+              <option value="54">SYSCOMER</option>
+              <option value="115">TELEVISIÓN 1</option>
+              <option value="116">TELEVISIÓN 2</option>
+              <option value="55">TELL ME MORE</option>
+              <option value="149">Tenable Nesus</option>
+              <option value="152">TeXstudio</option>
+              <option value="143">TFTP Server</option>
+              <option value="92">
+                TIA Portal STEP 7 Basic/Advanced/Professional Siemens
+              </option>
+              <option value="93">
+                TIA Portal WinCC Basic/Advanced/Professional Siemens
+              </option>
+              <option value="56">TOTAL INGLISH</option>
+              <option value="57">TRANSCAD</option>
+              <option value="172">Tsis</option>
+              <option value="153">Unity Education License</option>
+              <option value="98">Unity Pro M V4.1 Schneider Electric</option>
+              <option value="58">UNO PYMES</option>
+              <option value="163">Unreal Editor</option>
+              <option value="170">vantage point</option>
+              <option value="132">Vensim PLE</option>
+              <option value="100">Vijeo CITECT Schneider Electric</option>
+              <option value="99">Vijeo Designer V5.0 Schneider Electric</option>
+              <option value="59">VISIM</option>
+              <option value="60">VISIO</option>
+              <option value="61">VISUAL MODFLOW</option>
+              <option value="62">VISUAL STUDIO</option>
+              <option value="145">VMWare Player WorkStation</option>
+              <option value="63">VOXLER2</option>
+              <option value="91">WinCC Flexible 2008 Siemens</option>
+              <option value="94">
+                WinCC Flexible Basic/Advanced/Professional Siemens
+              </option>
+              <option value="64">WINQSB</option>
+              <option value="134">WinSCP</option>
+              <option value="65">WIRESHARK</option>
+              <option value="66">WOPED</option>
+              <option value="139">XAMPP</option>
+              <option value="67">XPRESS</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td width="150"><b>Facultad de la Materia</b></td>
+          <td>
+            <select name="n_idfacultad" required class="form-control">
+              <option value="">Seleccione...</option>
+              <option value="3">Administración de Empresas</option>
+              <option value="11">
+                Administración de Negocios Internacionales
+              </option>
+              <option value="13">Ciencias Básicas</option>
+              <option value="5">Comunicación Social - Periodismo</option>
+              <option value="6">Derecho</option>
+              <option value="15">Diseño Grafico</option>
+              <option value="14">Formación Humanística</option>
+              <option value="12">Idiomas</option>
+              <option value="7">Ingeniería Ambiental</option>
+              <option value="2">Ingeniería Civil</option>
+              <option value="1">Ingeniería de Sistemas e Informática</option>
+              <option value="16">Ingeniería Eléctrica</option>
+              <option value="9">Ingeniería Electrónica</option>
+              <option value="10">Ingeniería Industrial</option>
+              <option value="8">Ingeniería Mecánica</option>
+              <option value="4">Psicología</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td width="150"><b>Cantidad de alumnos</b></td>
+          <td>
+            <input
+              type="number"
+              name="n_cantidad"
+              class="form-control"
+              required
+              min="1"
+              placeholder="Digite un Numero > 0"
+              value=""
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</div>

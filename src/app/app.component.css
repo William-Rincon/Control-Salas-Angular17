@@ -1,0 +1,51 @@
+.logo-svg {
+  height: 40px;
+  border: 0; /* Ajusta esta altura según tus necesidades */
+}
+
+.general-styles {
+  background-color: black;
+  color: white;
+}
+
+.vertical-line {
+  /* border-right: 1px solid #c42e2e; */
+  background: linear-gradient(to bottom, #287b1d, #ffff00,#000000,#ffff00,#287b1d);
+  height: 100%; /* Asegura que la altura sea del 100% del contenedor */
+  position: absolute; /* Posiciona absolutamente dentro del contenedor padre */
+  right: 0; /* Alinea a la derecha del contenedor */
+  top: 0; /* Alinea en la parte superior del contenedor */
+  width: 1px; /* Ancho de la línea */
+}
+.vertical-line1 {
+  /* border-right: 1px solid #c42e2e; */
+  background: linear-gradient(to bottom, red, white,red,white,red);
+  height: 100%; /* Asegura que la altura sea del 100% del contenedor */
+  position: absolute; /* Posiciona absolutamente dentro del contenedor padre */
+  right: 0; /* Alinea a la derecha del contenedor */
+  top: 0; /* Alinea en la parte superior del contenedor */
+  width: 1px; /* Ancho de la línea */
+}
+
+.wrap-footer {
+  background-color: black; /* Ajusta según sea necesario */
+  color: white; /* Ajusta según sea necesario */
+  padding: 10px 0;
+}
+
+.footer-logo {
+  position: relative; /* Necesario para posicionar absolutamente la línea vertical */
+}
+
+.footer-logo img {
+  max-width: 150px; /* Ajusta según sea necesario */
+  height: auto;
+}
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.d-flex {
+  display: flex !important;
+}
