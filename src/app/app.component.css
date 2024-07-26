@@ -19,7 +19,7 @@
 }
 .vertical-line1 {
   /* border-right: 1px solid #c42e2e; */
-  background: linear-gradient(to bottom, red, white,red,white,red);
+  background: linear-gradient(to bottom, red, white,red,white,red, white,red,white,red,white,red, white,red,white,red);
   height: 100%; /* Asegura que la altura sea del 100% del contenedor */
   position: absolute; /* Posiciona absolutamente dentro del contenedor padre */
   right: 0; /* Alinea a la derecha del contenedor */
