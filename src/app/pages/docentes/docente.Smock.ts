@@ -67011,3 +67011,1265 @@ export interface Reporte {
 }
 
 
+export const obstlist: observacion[] =[
+
+  {
+    "n_idobservacionesaula": 332,
+    "t_nombrecompleto": "Auxiliares Salas CTIC Bucaramanga",
+    "t_aula": "D-300",
+    "d_fecha": "2015-04-23",
+    "d_hora": "16:18:30",
+    "t_observacion": "Hacen Falta Dos Equipos 10 y 21"
+   },
+   {
+    "n_idobservacionesaula": 333,
+    "t_nombrecompleto": "Luz Angela Barragan Ortiz",
+    "t_aula": "D-305",
+    "d_fecha": "2015-04-24",
+    "d_hora": "20:54:30",
+    "t_observacion": "El sw utilizado fue Python pero no está dentro de las opciones.  Escogí C++"
+   },
+   {
+    "n_idobservacionesaula": 334,
+    "t_nombrecompleto": "Luz Angela Barragan Ortiz",
+    "t_aula": "D-305",
+    "d_fecha": "2015-04-27",
+    "d_hora": "20:28:45",
+    "t_observacion": "Se trabajó en Python.  Pero  no hay opción de selección.  Por lo que seleccioné C++"
+   },
+   {
+    "n_idobservacionesaula": 335,
+    "t_nombrecompleto": "Luz Angela Barragan Ortiz",
+    "t_aula": "D-302",
+    "d_fecha": "2015-04-29",
+    "d_hora": "04:16:50",
+    "t_observacion": "Los dos Pc ubicados al ingreso del aula, no dieron video.  Como docente, me quedé sin Pc para monitorear el trabajo de los estudiantes"
+   },
+   {
+    "n_idobservacionesaula": 336,
+    "t_nombrecompleto": "Luz Angela Barragan Ortiz",
+    "t_aula": "D-300",
+    "d_fecha": "2015-04-29",
+    "d_hora": "04:20:40",
+    "t_observacion": "La instalación actual de Python,  no permite trabajar la extensión NUMPY.  Solicito, me permitan trabajar las  últimas clases de Lógica y Algortimia en  el D-305, en el horario de 10 a.m a 1 p.m "
+   },
+   {
+    "n_idobservacionesaula": 337,
+    "t_nombrecompleto": "ARELIS GOMEZ NOVA",
+    "t_aula": "D-303",
+    "d_fecha": "2015-04-29",
+    "d_hora": "17:11:03",
+    "t_observacion": 235987
+   },
+   {
+    "n_idobservacionesaula": 338,
+    "t_nombrecompleto": "Luz Angela Barragan Ortiz",
+    "t_aula": "D-302",
+    "d_fecha": "2015-05-05",
+    "d_hora": "17:10:47",
+    "t_observacion": "Para la clase del martes 12 de mayo, se requiere que  el programa DFD esté instalado y funcionando en todos los computadores bajo el usuario PARCIAL"
+   },
+   {
+    "n_idobservacionesaula": 339,
+    "t_nombrecompleto": "Luz Angela Barragan Ortiz",
+    "t_aula": "D-300",
+    "d_fecha": "2015-05-05",
+    "d_hora": "17:18:50",
+    "t_observacion": "Para la clase del lunes 11 de mayo, se requiere que  el programa PYTHON y NUMPY esté instalado y funcionando en todos los computadores bajo el usuario PARCIAL"
+   },
+   {
+    "n_idobservacionesaula": 340,
+    "t_nombrecompleto": "Luz Angela Barragan Ortiz",
+    "t_aula": "D-305",
+    "d_fecha": "2015-05-05",
+    "d_hora": "17:19:11",
+    "t_observacion": "Para la clase del viernes 15 de mayo, se requiere que  el programa PYTHON y NUMPY esté instalado y funcionando en todos los computadores bajo el usuario PARCIAL"
+   },
+   {
+    "n_idobservacionesaula": 341,
+    "t_nombrecompleto": "JACKELINE OVIEDO APARICIO",
+    "t_aula": "D-405",
+    "d_fecha": "2015-05-06",
+    "d_hora": "01:39:07",
+    "t_observacion": "Ingles 5 "
+   },
+   {
+    "n_idobservacionesaula": 342,
+    "t_nombrecompleto": "JACKELINE OVIEDO APARICIO",
+    "t_aula": "D-405",
+    "d_fecha": "2015-05-06",
+    "d_hora": "01:39:38",
+    "t_observacion": "ingles 2"
+   },
+   {
+    "n_idobservacionesaula": 343,
+    "t_nombrecompleto": "JACKELINE OVIEDO APARICIO",
+    "t_aula": "D-405",
+    "d_fecha": "2015-05-08",
+    "d_hora": "00:07:18",
+    "t_observacion": "ingles 2"
+   },
+   {
+    "n_idobservacionesaula": 344,
+    "t_nombrecompleto": "JACKELINE OVIEDO APARICIO",
+    "t_aula": "D-405",
+    "d_fecha": "2015-05-08",
+    "d_hora": "00:07:49",
+    "t_observacion": "ingles1"
+   },
+   {
+    "n_idobservacionesaula": 345,
+    "t_nombrecompleto": "JACKELINE OVIEDO APARICIO",
+    "t_aula": "D-405",
+    "d_fecha": "2015-05-08",
+    "d_hora": "00:12:50",
+    "t_observacion": "Ingles 5"
+   },
+   {
+    "n_idobservacionesaula": 346,
+    "t_nombrecompleto": "jherson suarez",
+    "t_aula": "K-519",
+    "d_fecha": "2015-07-14",
+    "d_hora": "15:13:59",
+    "t_observacion": "El proyector o video beam tiene falencias, en ocasiones es intermitente la proyección."
+   },
+   {
+    "n_idobservacionesaula": 347,
+    "t_nombrecompleto": "jherson suarez",
+    "t_aula": "K-519",
+    "d_fecha": "2015-07-28",
+    "d_hora": "14:39:34",
+    "t_observacion": "El videobeam en ocasiones es intermitente."
+   },
+   {
+    "n_idobservacionesaula": 348,
+    "t_nombrecompleto": "JAIRO PENA FUENTES",
+    "t_aula": "D-404",
+    "d_fecha": "2015-08-04",
+    "d_hora": "09:15:59",
+    "t_observacion": "Se cayo el mose"
+   },
+   {
+    "n_idobservacionesaula": 349,
+    "t_nombrecompleto": "JAIRO PENA FUENTES",
+    "t_aula": "D-404",
+    "d_fecha": "2015-08-26",
+    "d_hora": "10:25:36",
+    "t_observacion": "Teclado dañado"
+   },
+   {
+    "n_idobservacionesaula": 350,
+    "t_nombrecompleto": "Edward Parra Florez",
+    "t_aula": "K-204",
+    "d_fecha": "2015-08-26",
+    "d_hora": "20:34:16",
+    "t_observacion": "Incluir en el listado de software la herramienta de Risk Simulator, que es nuevo ya llevó 4 sesiones con ella y no he podido registrar el uso."
+   },
+   {
+    "n_idobservacionesaula": 351,
+    "t_nombrecompleto": "Edward Parra Florez",
+    "t_aula": "K-204",
+    "d_fecha": "2015-08-26",
+    "d_hora": "20:35:52",
+    "t_observacion": "Este sistema debería permitir por lo menos ingresar en el mismo mes, los primeros días. Hay ocasiones que se terminan las clases tardes y uno se le puede pasar registar el uso de software y como no hay opción de ingresar en el pasado, se pierde esa estadística."
+   },
+   {
+    "n_idobservacionesaula": 352,
+    "t_nombrecompleto": "Luz Angela Barragan Ortiz",
+    "t_aula": "D-301",
+    "d_fecha": "2015-09-14",
+    "d_hora": "06:21:22",
+    "t_observacion": "El profesor que utilizó la sala previamente a las 6 a.m del lunes 14 de septiembre, dejó el tablero utilizado.\nSería conveniente hacerle el comentario, porque esto forma parte de nuestro crecimiento profesional y personal."
+   },
+   {
+    "n_idobservacionesaula": 353,
+    "t_nombrecompleto": "JAIRO PENA FUENTES",
+    "t_aula": "D-304",
+    "d_fecha": "2015-11-12",
+    "d_hora": "11:21:36",
+    "t_observacion": "dasad"
+   },
+   {
+    "n_idobservacionesaula": 354,
+    "t_nombrecompleto": "JAZMIN RODRIGUEZ CESPEDES",
+    "t_aula": "D-403",
+    "d_fecha": "2016-02-19",
+    "d_hora": "07:32:30",
+    "t_observacion": "No funcionó el Video Beam. Auxiliar del Sena pidió apoyo y nunca llegó la persona encargada para arreglarlo. "
+   },
+   {
+    "n_idobservacionesaula": 355,
+    "t_nombrecompleto": "JULIO ENRIQUE GONZALEZ AMBROSIO",
+    "t_aula": "L203",
+    "d_fecha": "2017-08-30",
+    "d_hora": "15:53:18",
+    "t_observacion": "Se hace necesario incluir SIMGER dentro de la lista de software utilizado en las aulas.  Dado que se encuentra alojado en un servidor de la UPB, no se circunscribe a un aula en particular."
+   },
+   {
+    "n_idobservacionesaula": 356,
+    "t_nombrecompleto": "EDWIN DUGARTE PENA",
+    "t_aula": "D-301",
+    "d_fecha": "2017-09-03",
+    "d_hora": "14:09:45",
+    "t_observacion": "En esta aula he estado haciendo uso del software minitab en las fechas agosto 25 y 25; septiembre 1 y 2, por un total de 20 horas"
+   },
+   {
+    "n_idobservacionesaula": 357,
+    "t_nombrecompleto": "EDWIN DUGARTE PENA",
+    "t_aula": "D-302",
+    "d_fecha": "2019-08-14",
+    "d_hora": "06:35:27",
+    "t_observacion": "Se usó el software minitab18 durante todo el semestre 201910 para el curso de estadística en la maestría de psicología (48 horas)"
+   },
+   {
+    "n_idobservacionesaula": 358,
+    "t_nombrecompleto": "EDWIN DUGARTE PENA",
+    "t_aula": "D-405",
+    "d_fecha": "2019-08-14",
+    "d_hora": "06:37:50",
+    "t_observacion": "Se usó el software minitab18 durante 32 horas el semestre 201910 para el curso de estadística y confiabilidad en la especialización en Gerencia del mantenimiento y la confiabilidad "
+   },
+   {
+    "n_idobservacionesaula": 359,
+    "t_nombrecompleto": "EDWIN DUGARTE PENA",
+    "t_aula": "K-519",
+    "d_fecha": "2019-08-14",
+    "d_hora": "06:40:09",
+    "t_observacion": "Durante 201920 estaré usando el software Minitab 18 para el desarrollo del curso Estadística descriptiva y probabilidad (64 horas) en las aulas K-519 y K-520"
+   },
+   {
+    "n_idobservacionesaula": 364,
+    "t_nombrecompleto": "JAIRO PENA FUENTES",
+    "t_aula": "I-201 Laboratorio Redes y Seguridad Informática",
+    "d_fecha": "2019-12-04",
+    "d_hora": "23:00:00",
+    "t_observacion": "cambio equipo "
+   },
+   {
+    "n_idobservacionesaula": 360,
+    "t_nombrecompleto": "JAIRO PENA FUENTES",
+    "t_aula": "B303",
+    "d_fecha": "2024-04-10",
+    "d_hora": "10:33:51",
+    "t_observacion": "sfdjksdhfjksdhfkjshdfkjsdfsdf"
+   },
+   {
+    "n_idobservacionesaula": 361,
+    "t_nombrecompleto": "JAIRO PENA FUENTES",
+    "t_aula": "D-303",
+    "d_fecha": "2024-04-15",
+    "d_hora": "08:06:20",
+    "t_observacion": "Se robaron un lapiz"
+   },
+   {
+    "n_idobservacionesaula": 362,
+    "t_nombrecompleto": "JAIRO PENA FUENTES",
+    "t_aula": "I-201 Laboratorio Redes y Seguridad Informática",
+    "d_fecha": "2024-04-23",
+    "d_hora": "08:17:57",
+    "t_observacion": "cables dañados  pantalla falla"
+   },
+   {
+    "n_idobservacionesaula": 363,
+    "t_nombrecompleto": "JAIRO PENA FUENTES",
+    "t_aula": "I-201 Laboratorio Redes y Seguridad Informática",
+    "d_fecha": "2024-04-23",
+    "d_hora": "09:16:42",
+    "t_observacion": "pantalla mal funcionamiento"
+   },
+   {
+    "n_idobservacionesaula": 365,
+    "t_nombrecompleto": "JAIRO PENA FUENTES",
+    "t_aula": "D-302",
+    "d_fecha": "2024-05-28",
+    "d_hora": "08:05:15",
+    "t_observacion": "Se cayo la matera"
+   }
+]
+
+
+
+export interface observacion{
+  n_idobservacionesaula: number;
+  t_nombrecompleto:      string;
+  t_aula:                string;
+  d_fecha:               string;
+  d_hora:                string;
+  t_observacion:         number | string;
+}
+
+export const solitlist : SolicitudesUsuario[] = [
+     {
+      "n_idinstalsoftware": 23,
+      "t_nombrecompleto": "JAIRO PENA FUENTES",
+      "t_aula": "D-300",
+      "t_software": "ANSYS",
+      "t_facultad": "Ciencias Básicas",
+      "d_fecharequerido": "2015-06-11",
+      "d_fechasolicitud": "2015-06-10 09:42:50",
+      "d_fechainstalacion": "2015-06-10",
+      "t_estado": "INSTALADO",
+      "t_observaciones": "prueba email"
+     },
+     {
+      "n_idinstalsoftware": 24,
+      "t_nombrecompleto": "JAIRO PENA FUENTES",
+      "t_aula": "MAC K-506",
+      "t_software": "XPRESS",
+      "t_facultad": "Psicología ",
+      "d_fecharequerido": "2015-06-28",
+      "d_fechasolicitud": "2015-06-25 16:02:28",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Es una prueba"
+     },
+     {
+      "n_idinstalsoftware": 25,
+      "t_nombrecompleto": "ARELIS GOMEZ NOVA",
+      "t_aula": "D-300",
+      "t_software": "ANSYS",
+      "t_facultad": "Derecho ",
+      "d_fecharequerido": "2015-07-16",
+      "d_fechasolicitud": "2015-07-14 16:16:52",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "rrr"
+     },
+     {
+      "n_idinstalsoftware": 26,
+      "t_nombrecompleto": "JAIRO PENA FUENTES",
+      "t_aula": "K-520",
+      "t_software": "AUDITION",
+      "t_facultad": "Formación Humanística",
+      "d_fecharequerido": "2015-07-22",
+      "d_fechasolicitud": "2015-07-15 09:24:51",
+      "d_fechainstalacion": "2015-08-04",
+      "t_estado": "INSTALADO"
+     },
+     {
+      "n_idinstalsoftware": 27,
+      "t_nombrecompleto": "JAIRO PENA FUENTES",
+      "t_aula": "D-302",
+      "t_software": "AUDITION",
+      "t_facultad": "Derecho ",
+      "d_fecharequerido": "2015-07-16",
+      "d_fechasolicitud": "2015-07-15 09:33:21"
+     },
+     {
+      "n_idinstalsoftware": 28,
+      "t_nombrecompleto": "JAIRO PENA FUENTES",
+      "t_aula": "D-302",
+      "t_software": "AUDITION",
+      "t_facultad": "Derecho ",
+      "d_fecharequerido": "2015-07-16",
+      "d_fechasolicitud": "2015-07-15 09:33:21"
+     },
+     {
+      "n_idinstalsoftware": 30,
+      "t_nombrecompleto": "JAIRO PENA FUENTES",
+      "t_aula": "D-302",
+      "t_software": "CMAP TOOLS",
+      "sft": "opus",
+      "t_facultad": "Idiomas",
+      "d_fecharequerido": "2015-08-22",
+      "d_fechasolicitud": "2015-08-04 09:16:32",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "5 licencias"
+     },
+     {
+      "n_idinstalsoftware": 31,
+      "t_nombrecompleto": "JAIRO PENA FUENTES",
+      "t_aula": "D-301",
+      "t_software": "ATLAS TI",
+      "sft": "as",
+      "t_facultad": "Comunicación Social - Periodismo",
+      "d_fecharequerido": "2015-08-27",
+      "d_fechasolicitud": "2015-08-26 09:58:01",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "asdsd"
+     },
+     {
+      "n_idinstalsoftware": 32,
+      "t_nombrecompleto": "JAIRO PENA FUENTES",
+      "t_aula": "D-303",
+      "t_software": "AUDITION",
+      "sft": "version 3.o de Audition",
+      "t_facultad": "Administración de Empresas",
+      "d_fecharequerido": "2015-08-28",
+      "d_fechasolicitud": "2015-08-26 10:26:45",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "4 usuarios solamente"
+     },
+     {
+      "n_idinstalsoftware": 34,
+      "t_nombrecompleto": "Fabian Andres Castaño Giraldo",
+      "t_aula": "K-203",
+      "t_software": "PYTHON",
+      "t_facultad": "Ingeniería Industrial  ",
+      "d_fecharequerido": "2015-11-06",
+      "d_fechasolicitud": "2015-11-06 11:54:28",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 38,
+      "t_nombrecompleto": "JUAN MANUEL ARGUELLO ESPINOSA",
+      "t_aula": "D-301",
+      "t_software": "SOLID WORK",
+      "t_facultad": "Ingeniería Mecánica  ",
+      "d_fecharequerido": "2016-01-31",
+      "d_fechasolicitud": "2015-11-06 11:55:17",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 35,
+      "t_nombrecompleto": "Fabian Andres Castaño Giraldo",
+      "t_aula": "K-203",
+      "t_software": "PYTHON",
+      "sft": "Sympy",
+      "t_facultad": "Ingeniería Industrial  ",
+      "d_fecharequerido": "2015-11-06",
+      "d_fechasolicitud": "2015-11-06 11:56:29",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 36,
+      "t_nombrecompleto": "Fabian Andres Castaño Giraldo",
+      "t_aula": "K-203",
+      "t_software": "XPRESS",
+      "t_facultad": "Ingeniería Industrial  ",
+      "d_fecharequerido": "2015-11-06",
+      "d_fechasolicitud": "2015-11-06 11:57:44",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 37,
+      "t_nombrecompleto": "Fabian Andres Castaño Giraldo",
+      "t_aula": "K-203",
+      "t_software": "PYTHON",
+      "sft": "Python+Numpy",
+      "t_facultad": "Ingeniería Industrial  ",
+      "d_fecharequerido": "2015-11-06",
+      "d_fechasolicitud": "2015-11-06 11:58:23",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 39,
+      "t_nombrecompleto": "JUAN MANUEL ARGUELLO ESPINOSA",
+      "t_aula": "D-301",
+      "t_software": "ANSYS",
+      "t_facultad": "Ingeniería Mecánica  ",
+      "d_fecharequerido": "2016-01-18",
+      "d_fechasolicitud": "2015-11-06 12:21:50",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 40,
+      "t_nombrecompleto": "CLAUDIA LEONOR RUEDA GUZMAN",
+      "t_aula": "K-520",
+      "sft": "Proteus (simulador electrónico)",
+      "t_facultad": "Ingeniería Electrónica ",
+      "d_fecharequerido": "2015-11-06",
+      "d_fechasolicitud": "2015-11-06 15:29:12",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 41,
+      "t_nombrecompleto": "CLAUDIA LEONOR RUEDA GUZMAN",
+      "t_aula": "K-520",
+      "sft": "MPLABX",
+      "t_facultad": "Ingeniería Electrónica ",
+      "d_fecharequerido": "2015-11-06",
+      "d_fechasolicitud": "2015-11-06 15:30:16",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Este es el vinculo para poderlo descargar \n\nhttp:\/\/www.microchip.com\/pagehandler\/en-us\/family\/mplabx\/ "
+     },
+     {
+      "n_idinstalsoftware": 42,
+      "t_nombrecompleto": "CLAUDIA LEONOR RUEDA GUZMAN",
+      "t_aula": "K-520",
+      "sft": "Terminal de octoplus",
+      "t_facultad": "Ingeniería Electrónica ",
+      "d_fecharequerido": "2015-11-06",
+      "d_fechasolicitud": "2015-11-06 15:31:51",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Vinculo para bajarlo:\n\nhttp:\/\/www.octoplus.com.co\/tienda\/octoplus-terminal\/"
+     },
+     {
+      "n_idinstalsoftware": 43,
+      "t_nombrecompleto": "JAIRO PENA FUENTES",
+      "t_aula": "D-302",
+      "t_software": "ARENA",
+      "sft": "software nuevo",
+      "t_facultad": "Idiomas",
+      "d_fecharequerido": "2015-11-13",
+      "d_fechasolicitud": "2015-11-12 11:22:23",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "5 licencias"
+     },
+     {
+      "n_idinstalsoftware": 44,
+      "t_nombrecompleto": "OSCAR FERNANDO GÓMEZ SANDOVAL",
+      "t_aula": "Aula Biblioteca",
+      "sft": "TeXStudio + MiKTeX",
+      "t_facultad": "Ingenieria de Sistemas e Informatica",
+      "d_fecharequerido": "2015-11-14",
+      "d_fechasolicitud": "2015-11-13 16:45:53",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "LaTeX es un sistema para la creación de artículos científicos. TeXStudio es una herramienta para escribir con LaTeX; para funcionar, requiere que previamente se instale MiKTeX.\nValdría la pena instalar ese software en todos los equipos de uso común de lo"
+     },
+     {
+      "n_idinstalsoftware": 45,
+      "t_nombrecompleto": "LEONARDO BARON PAEZ",
+      "t_aula": "K-519",
+      "t_software": "CONSTRUPLAN",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "0000-00-00",
+      "d_fechasolicitud": "2015-11-14 10:50:12",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 46,
+      "t_nombrecompleto": "OMAR PINZON ARDILA",
+      "t_aula": "K-520",
+      "t_software": "Aspen HYSYS Dynamics",
+      "t_facultad": "Ingeniería Electrónica ",
+      "d_fecharequerido": "0000-00-00",
+      "d_fechasolicitud": "2015-11-17 07:30:24",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 47,
+      "t_nombrecompleto": "OMAR PINZON ARDILA",
+      "t_aula": "K-520",
+      "t_software": "MATLAB",
+      "t_facultad": "Ingeniería Electrónica ",
+      "d_fecharequerido": "0000-00-00",
+      "d_fechasolicitud": "2015-11-17 07:30:53",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 48,
+      "t_nombrecompleto": "OMAR PINZON ARDILA",
+      "t_aula": "K-520",
+      "t_software": "MINITAB",
+      "t_facultad": "Ingeniería Electrónica ",
+      "d_fecharequerido": "0000-00-00",
+      "d_fechasolicitud": "2015-11-17 07:50:50",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 49,
+      "t_nombrecompleto": "SHIRLEY MARCELA CORREA HERRERA",
+      "t_aula": "D-403",
+      "t_software": "TELL ME MORE",
+      "t_facultad": "Idiomas",
+      "d_fecharequerido": "2015-11-19",
+      "d_fechasolicitud": "2015-11-17 15:17:19",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 50,
+      "t_nombrecompleto": "SHIRLEY MARCELA CORREA HERRERA",
+      "t_aula": "D-403",
+      "sft": "LIFE",
+      "t_facultad": "Idiomas",
+      "d_fecharequerido": "2015-11-18",
+      "d_fechasolicitud": "2015-11-17 15:19:08",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Los CD ROMs originales se encuentran en el Departamento de Idiomas. Se requiere la instalación de los niveles ELEMENTARY y PRE-INTERMEDIATE."
+     },
+     {
+      "n_idinstalsoftware": 51,
+      "t_nombrecompleto": "SHIRLEY MARCELA CORREA HERRERA",
+      "t_aula": "D-302",
+      "t_software": "TELL ME MORE",
+      "t_facultad": "Idiomas",
+      "d_fecharequerido": "2015-11-19",
+      "d_fechasolicitud": "2015-11-17 15:20:59",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 52,
+      "t_nombrecompleto": "SHIRLEY MARCELA CORREA HERRERA",
+      "t_aula": "D-302",
+      "sft": "LIFE",
+      "t_facultad": "Idiomas",
+      "d_fecharequerido": "2015-11-18",
+      "d_fechasolicitud": "2015-11-17 15:21:44",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Los CD Roms fueron adquiridos por el Departamento de Idiomas. Se solicita la instalación de los niveles ELEMENTARY y PRE-INTERMEDIATE."
+     },
+     {
+      "n_idinstalsoftware": 53,
+      "t_nombrecompleto": "SHIRLEY MARCELA CORREA HERRERA",
+      "t_aula": "D-403",
+      "sft": "LIFESTYLE INTERMEDIATE ",
+      "t_facultad": "Idiomas",
+      "d_fecharequerido": "2015-11-18",
+      "d_fechasolicitud": "2015-11-17 15:23:02",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "El CD ROM fue adquirido por el Departamento de idiomas. "
+     },
+     {
+      "n_idinstalsoftware": 54,
+      "t_nombrecompleto": "SHIRLEY MARCELA CORREA HERRERA",
+      "t_aula": "D-302",
+      "sft": "LIFESTYLE INTERMEDIATE ",
+      "t_facultad": "Idiomas",
+      "d_fecharequerido": "2015-11-18",
+      "d_fechasolicitud": "2015-11-17 15:24:02",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "El CD ROM fue adquirido por el Departamento de idiomas. "
+     },
+     {
+      "n_idinstalsoftware": 55,
+      "t_nombrecompleto": "Luz Angela Barragan Ortiz",
+      "t_aula": "D-405",
+      "t_software": "CMAP TOOLS",
+      "t_facultad": "Ingenieria de Sistemas e Informatica",
+      "d_fecharequerido": "2016-02-12",
+      "d_fechasolicitud": "2016-02-10 08:40:09",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 56,
+      "t_nombrecompleto": "Luz Angela Barragan Ortiz",
+      "t_aula": "D-405",
+      "sft": "Creston RoomView",
+      "t_facultad": "Ingenieria de Sistemas e Informatica",
+      "d_fecharequerido": "2016-02-12",
+      "d_fechasolicitud": "2016-02-10 09:23:55",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Solo se puede proyectar desde un Pc.\nPor estrategia dicdáctica, prefiero proyectar desde el pc 28. En audiovisuales manifestaron que volverían a instalar."
+     },
+     {
+      "n_idinstalsoftware": 57,
+      "t_nombrecompleto": "JAVIER RICARDO LUNA PINEDA",
+      "t_aula": "K-520",
+      "sft": "Wamp server",
+      "t_facultad": "Ingenieria de Sistemas e Informatica",
+      "d_fecharequerido": "2016-04-01",
+      "d_fechasolicitud": "2016-03-28 10:04:26",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Instalar wamp server para la asignatura Herramientas de páginas Web"
+     },
+     {
+      "n_idinstalsoftware": 58,
+      "t_nombrecompleto": "JAVIER RICARDO LUNA PINEDA",
+      "t_aula": "K-520",
+      "sft": "Wamp server",
+      "t_facultad": "Ingenieria de Sistemas e Informatica",
+      "d_fecharequerido": "2016-04-01",
+      "d_fechasolicitud": "2016-03-28 10:06:05",
+      "t_observaciones": "Instalar wamp server para la asignatura Herramientas de páginas Web"
+     },
+     {
+      "n_idinstalsoftware": 59,
+      "t_nombrecompleto": "JAVIER RICARDO LUNA PINEDA",
+      "t_aula": "D-304",
+      "sft": "Wamp server",
+      "t_facultad": "Ingenieria de Sistemas e Informatica",
+      "d_fecharequerido": "2016-04-01",
+      "d_fechasolicitud": "2016-03-28 10:06:22",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Se necesita para la asignatura Herramientas de páginas Web"
+     },
+     {
+      "n_idinstalsoftware": 60,
+      "t_nombrecompleto": "ANGELA PILAR ALBARRACIN RODRIGUEZ",
+      "t_aula": "D-303",
+      "t_software": "SPSS",
+      "t_facultad": "Psicología ",
+      "d_fecharequerido": "2016-07-22",
+      "d_fechasolicitud": "2016-06-08 14:05:53",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "El software se empleará todos los viernes de 2 a 4 pm. Gracias."
+     },
+     {
+      "n_idinstalsoftware": 61,
+      "t_nombrecompleto": "ANGELA PILAR ALBARRACIN RODRIGUEZ",
+      "t_aula": "D-303",
+      "t_software": "SPSS",
+      "t_facultad": "Psicología ",
+      "d_fecharequerido": "2016-07-22",
+      "d_fechasolicitud": "2016-06-08 14:05:53",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "El software se empleará todos los viernes de 2 a 4 pm. Gracias."
+     },
+     {
+      "n_idinstalsoftware": 62,
+      "t_nombrecompleto": "Alexys Herleym Rodriguez Avellaneda",
+      "t_aula": "K-519",
+      "t_software": "ARC GIS",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2017-02-10",
+      "d_fechasolicitud": "2016-11-30 15:09:25",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Diseño de Vías I"
+     },
+     {
+      "n_idinstalsoftware": 63,
+      "t_nombrecompleto": "Alexys Herleym Rodriguez Avellaneda",
+      "t_aula": "K-520",
+      "t_software": "ARC GIS",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2017-02-02",
+      "d_fechasolicitud": "2016-11-30 15:10:21",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Diseño de Vías I"
+     },
+     {
+      "n_idinstalsoftware": 64,
+      "t_nombrecompleto": "Alexys Herleym Rodriguez Avellaneda",
+      "t_aula": "K-519",
+      "t_software": "AUTOCAD",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2017-02-02",
+      "d_fechasolicitud": "2016-11-30 15:10:57",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Diseño de Vías I"
+     },
+     {
+      "n_idinstalsoftware": 65,
+      "t_nombrecompleto": "Alexys Herleym Rodriguez Avellaneda",
+      "t_aula": "K-520",
+      "t_software": "AUTOCAD",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2017-02-02",
+      "d_fechasolicitud": "2016-11-30 15:11:22",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Diseño de Vías I"
+     },
+     {
+      "n_idinstalsoftware": 66,
+      "t_nombrecompleto": "Alexys Herleym Rodriguez Avellaneda",
+      "t_aula": "K-519",
+      "sft": "TOPO3",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2017-02-02",
+      "d_fechasolicitud": "2016-11-30 15:11:45",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Diseño de Vías I"
+     },
+     {
+      "n_idinstalsoftware": 67,
+      "t_nombrecompleto": "Alexys Herleym Rodriguez Avellaneda",
+      "t_aula": "K-520",
+      "sft": "TOPO3",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2017-02-02",
+      "d_fechasolicitud": "2016-11-30 15:13:31",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Diseño de Vías I"
+     },
+     {
+      "n_idinstalsoftware": 68,
+      "t_nombrecompleto": "Alexys Herleym Rodriguez Avellaneda",
+      "t_aula": "K-519",
+      "sft": "MEPDG",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2017-01-21",
+      "d_fechasolicitud": "2016-11-30 15:16:11",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Seminario de Diseño de Pavimentos Flexibles"
+     },
+     {
+      "n_idinstalsoftware": 69,
+      "t_nombrecompleto": "Alexys Herleym Rodriguez Avellaneda",
+      "t_aula": "K-520",
+      "sft": "MEPDG",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2017-01-21",
+      "d_fechasolicitud": "2016-11-30 15:19:16",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Seminario de Diseño de Pavimentos Flexibles"
+     },
+     {
+      "n_idinstalsoftware": 70,
+      "t_nombrecompleto": "MARCELA VILLA MARULANDA",
+      "t_aula": "K-203",
+      "t_software": "GAMS",
+      "t_facultad": "Ingeniería Industrial  ",
+      "d_fecharequerido": "2016-11-30",
+      "d_fechasolicitud": "2016-11-30 18:26:04",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Podría ser la versión estudiantil."
+     },
+     {
+      "n_idinstalsoftware": 71,
+      "t_nombrecompleto": "MARCELA VILLA MARULANDA",
+      "t_aula": "K-204",
+      "t_software": "GAMS",
+      "t_facultad": "Ingeniería Industrial  ",
+      "d_fecharequerido": "2016-11-30",
+      "d_fechasolicitud": "2016-11-30 18:27:29",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Podría ser la versión estudiantil."
+     },
+     {
+      "n_idinstalsoftware": 72,
+      "t_nombrecompleto": "MARCELA VILLA MARULANDA",
+      "t_aula": "K-206",
+      "t_software": "GAMS",
+      "t_facultad": "Ingeniería Industrial  ",
+      "d_fecharequerido": "2016-11-30",
+      "d_fechasolicitud": "2016-11-30 18:28:25",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Podría ser la versión estudiantil."
+     },
+     {
+      "n_idinstalsoftware": 73,
+      "t_nombrecompleto": "MARCELA VILLA MARULANDA",
+      "t_aula": "K-203",
+      "t_software": "XPRESS",
+      "t_facultad": "Ingeniería Industrial  ",
+      "d_fecharequerido": "2016-11-30",
+      "d_fechasolicitud": "2016-11-30 18:29:29",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Podría ser la versión estudiantil."
+     },
+     {
+      "n_idinstalsoftware": 74,
+      "t_nombrecompleto": "MARCELA VILLA MARULANDA",
+      "t_aula": "K-204",
+      "t_software": "XPRESS",
+      "t_facultad": "Ingeniería Industrial  ",
+      "d_fecharequerido": "2016-11-30",
+      "d_fechasolicitud": "2016-11-30 18:29:52",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Podría ser la versión estudiantil."
+     },
+     {
+      "n_idinstalsoftware": 75,
+      "t_nombrecompleto": "MARCELA VILLA MARULANDA",
+      "t_aula": "K-206",
+      "t_software": "XPRESS",
+      "t_facultad": "Ingeniería Industrial  ",
+      "d_fecharequerido": "2016-11-30",
+      "d_fechasolicitud": "2016-11-30 18:30:25",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Podría ser la versión estudiantil."
+     },
+     {
+      "n_idinstalsoftware": 76,
+      "t_nombrecompleto": "CLAUDIA LEONOR RUEDA GUZMAN",
+      "t_aula": "K-520",
+      "sft": "MPLABX",
+      "t_facultad": "Ingenieria de Sistemas e Informatica",
+      "d_fecharequerido": "2017-01-23",
+      "d_fechasolicitud": "2016-11-30 23:25:16",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "EL aula de clase que se requiere es la K501 pero no aparece en la lista, por favor la pueden instalar en la K501. La idea es instalar este software que es free de la siguiente página http:\/\/www.microchip.com\/mplab\/mplab-x-ide\nMuchas Gracias \n"
+     },
+     {
+      "n_idinstalsoftware": 77,
+      "t_nombrecompleto": "MARIANELA LUZARDO BRICENO",
+      "t_aula": "K-203",
+      "t_software": "MINITAB",
+      "t_facultad": "Ingeniería Industrial  ",
+      "d_fecharequerido": "2017-01-12",
+      "d_fechasolicitud": "2016-12-01 12:41:53",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Para todo el semestre"
+     },
+     {
+      "n_idinstalsoftware": 78,
+      "t_nombrecompleto": "MARIANELA LUZARDO BRICENO",
+      "t_aula": "K-203",
+      "t_software": "SPSS",
+      "t_facultad": "Ingeniería Industrial  ",
+      "d_fecharequerido": "2017-01-19",
+      "d_fechasolicitud": "2016-12-01 12:43:51",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 79,
+      "t_nombrecompleto": "MARIANELA LUZARDO BRICENO",
+      "t_aula": "K-203",
+      "t_software": "SPSS",
+      "t_facultad": "Ingeniería Industrial  ",
+      "d_fecharequerido": "2017-01-19",
+      "d_fechasolicitud": "2016-12-01 12:43:51",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 80,
+      "t_nombrecompleto": "JUAN CARLOS GODOY PINILLA",
+      "t_aula": "MAC K-516",
+      "sft": "EDGE",
+      "t_facultad": "DISEÑO GRAFICO",
+      "d_fecharequerido": "2017-01-12",
+      "d_fechasolicitud": "2016-12-02 11:46:56",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Software para diseño de interactividad de la suite Adobe"
+     },
+     {
+      "n_idinstalsoftware": 81,
+      "t_nombrecompleto": "GUSTAVO ANDRES OSPINA IDARRAGA",
+      "t_aula": "K-519",
+      "t_software": "SAP 2000",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "0000-00-00",
+      "d_fechasolicitud": "2016-12-09 10:49:15",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Requerido tanto en sala k-519 como k-520"
+     },
+     {
+      "n_idinstalsoftware": 82,
+      "t_nombrecompleto": "GUSTAVO ANDRES OSPINA IDARRAGA",
+      "t_aula": "K-519",
+      "sft": "ETABS",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "0000-00-00",
+      "d_fechasolicitud": "2016-12-09 10:53:49",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Software requerido en las salas k-519 y k-520"
+     },
+     {
+      "n_idinstalsoftware": 83,
+      "t_nombrecompleto": "GUSTAVO ANDRES OSPINA IDARRAGA",
+      "t_aula": "K-519",
+      "t_software": "MATLAB",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "0000-00-00",
+      "d_fechasolicitud": "2016-12-09 10:55:32",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Software requerido en las salas k-519 y k-520"
+     },
+     {
+      "n_idinstalsoftware": 84,
+      "t_nombrecompleto": "GUSTAVO ANDRES OSPINA IDARRAGA",
+      "t_aula": "K-519",
+      "t_software": "MATHEMATICAS",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "0000-00-00",
+      "d_fechasolicitud": "2016-12-09 10:56:21",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Software requerido en las salas k-519 y k-520"
+     },
+     {
+      "n_idinstalsoftware": 85,
+      "t_nombrecompleto": "GUSTAVO ANDRES OSPINA IDARRAGA",
+      "t_aula": "K-519",
+      "sft": "Condor HTC",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "0000-00-00",
+      "d_fechasolicitud": "2016-12-09 10:56:53",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Software de investigacion. De ser posible, instalarlo tanto en k-519 como k-520."
+     },
+     {
+      "n_idinstalsoftware": 86,
+      "t_nombrecompleto": "GUSTAVO ANDRES OSPINA IDARRAGA",
+      "t_aula": "K-519",
+      "sft": "TCL\/Opensees",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "0000-00-00",
+      "d_fechasolicitud": "2016-12-09 10:58:06",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Software de investigacion. De ser posible, instalarlo tanto en k-519 como k-520."
+     },
+     {
+      "n_idinstalsoftware": 87,
+      "t_nombrecompleto": "RICARDO PICO VARGAS",
+      "t_aula": "K-519",
+      "t_software": "CIVIL 3D",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2017-01-01",
+      "d_fechasolicitud": "2016-12-11 08:08:50",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 88,
+      "t_nombrecompleto": "RICARDO PICO VARGAS",
+      "t_aula": "K-520",
+      "t_software": "CIVIL 3D",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2017-01-01",
+      "d_fechasolicitud": "2016-12-11 08:10:18",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 89,
+      "t_nombrecompleto": "Sandra Rocio Villamizar Amaya",
+      "t_aula": "K-520",
+      "t_software": "ARC GIS",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "0000-00-00",
+      "d_fechasolicitud": "2016-12-12 14:33:33",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 90,
+      "t_nombrecompleto": "Sandra Rocio Villamizar Amaya",
+      "t_aula": "K-520",
+      "t_software": "AUTOCAD",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "0000-00-00",
+      "d_fechasolicitud": "2016-12-12 14:36:56",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 91,
+      "t_nombrecompleto": "Sandra Rocio Villamizar Amaya",
+      "t_aula": "K-520",
+      "t_software": "HEC",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "0000-00-00",
+      "d_fechasolicitud": "2016-12-12 14:37:51",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "HEC RAS - Hidráulica\nHEC HMS - Hidrología"
+     },
+     {
+      "n_idinstalsoftware": 92,
+      "t_nombrecompleto": "Sandra Rocio Villamizar Amaya",
+      "t_aula": "K-520",
+      "t_software": "OFFICE",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "0000-00-00",
+      "d_fechasolicitud": "2016-12-12 14:39:25",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Word, Power Point, Excel"
+     },
+     {
+      "n_idinstalsoftware": 93,
+      "t_nombrecompleto": "ALDEMAR REMOLINA MILLAN",
+      "t_aula": "K-519",
+      "t_software": "AUTOCAD Architecure - Autodesk",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2016-12-15",
+      "d_fechasolicitud": "2016-12-14 08:57:27",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 94,
+      "t_nombrecompleto": "ALDEMAR REMOLINA MILLAN",
+      "t_aula": "K-520",
+      "t_software": "AUTOCAD Architecure - Autodesk",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2016-12-15",
+      "d_fechasolicitud": "2016-12-14 08:59:16",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 95,
+      "t_nombrecompleto": "ALDEMAR REMOLINA MILLAN",
+      "t_aula": "K-519",
+      "t_software": "CONSTRUPLAN",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2016-12-15",
+      "d_fechasolicitud": "2016-12-14 08:59:57",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 96,
+      "t_nombrecompleto": "ALDEMAR REMOLINA MILLAN",
+      "t_aula": "K-520",
+      "t_software": "CONSTRUPLAN",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2016-12-15",
+      "d_fechasolicitud": "2016-12-14 09:01:40",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 97,
+      "t_nombrecompleto": "ALDEMAR REMOLINA MILLAN",
+      "t_aula": "K-519",
+      "t_software": "OPUS",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2016-12-15",
+      "d_fechasolicitud": "2016-12-14 09:06:42",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 98,
+      "t_nombrecompleto": "ALDEMAR REMOLINA MILLAN",
+      "t_aula": "K-520",
+      "t_software": "OPUS",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2016-12-15",
+      "d_fechasolicitud": "2016-12-14 09:07:18",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 99,
+      "t_nombrecompleto": "ALDEMAR REMOLINA MILLAN",
+      "t_aula": "K-519",
+      "t_software": "PRIMAVERA",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2016-12-15",
+      "d_fechasolicitud": "2016-12-14 09:08:24",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 100,
+      "t_nombrecompleto": "ALDEMAR REMOLINA MILLAN",
+      "t_aula": "K-520",
+      "t_software": "PRIMAVERA",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2016-12-15",
+      "d_fechasolicitud": "2016-12-14 09:09:22",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 101,
+      "t_nombrecompleto": "ALDEMAR REMOLINA MILLAN",
+      "t_aula": "K-519",
+      "t_software": "PROJECT",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2016-12-15",
+      "d_fechasolicitud": "2016-12-14 09:09:52",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 102,
+      "t_nombrecompleto": "ALDEMAR REMOLINA MILLAN",
+      "t_aula": "K-520",
+      "t_software": "PRIMAVERA",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2016-12-15",
+      "d_fechasolicitud": "2016-12-14 09:10:17",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 103,
+      "t_nombrecompleto": "ALDEMAR REMOLINA MILLAN",
+      "t_aula": "K-519",
+      "t_software": "PROJECT",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2016-12-15",
+      "d_fechasolicitud": "2016-12-14 09:10:47",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 104,
+      "t_nombrecompleto": "ALDEMAR REMOLINA MILLAN",
+      "t_aula": "K-520",
+      "t_software": "PROJECT",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2016-12-15",
+      "d_fechasolicitud": "2016-12-14 09:11:17",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 105,
+      "t_nombrecompleto": "ALDEMAR REMOLINA MILLAN",
+      "t_aula": "K-519",
+      "t_software": "AUTOCAD Architecure - Autodesk",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2016-12-15",
+      "d_fechasolicitud": "2016-12-14 09:11:43",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 106,
+      "t_nombrecompleto": "ALDEMAR REMOLINA MILLAN",
+      "t_aula": "K-520",
+      "t_software": "AUTOCAD Architecure - Autodesk",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2016-12-15",
+      "d_fechasolicitud": "2016-12-14 09:13:04",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 107,
+      "t_nombrecompleto": "ALDEMAR REMOLINA MILLAN",
+      "t_aula": "K-520",
+      "t_software": "AUTOCAD Architecure - Autodesk",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2016-12-15",
+      "d_fechasolicitud": "2016-12-14 09:13:48",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 108,
+      "t_nombrecompleto": "ALDEMAR REMOLINA MILLAN",
+      "t_aula": "K-519",
+      "t_software": "AUTOCAD Inventor - Autodesk",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2016-12-15",
+      "d_fechasolicitud": "2016-12-14 09:14:37",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 109,
+      "t_nombrecompleto": "ALDEMAR REMOLINA MILLAN",
+      "t_aula": "K-520",
+      "t_software": "AUTOCAD Inventor - Autodesk",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2016-12-15",
+      "d_fechasolicitud": "2016-12-14 09:15:01",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 110,
+      "t_nombrecompleto": "Auxiliares Salas CTIC Bucaramanga",
+      "t_aula": "I-201 Laboratorio Redes y Seguridad Informática",
+      "sft": "Cisco Packet Tracer",
+      "t_facultad": "Ingenieria de Sistemas e Informatica",
+      "d_fecharequerido": "2017-07-10",
+      "d_fechasolicitud": "2017-06-15 08:16:57",
+      "t_estado": "SOLICITADO"
+     },
+     {
+      "n_idinstalsoftware": 111,
+      "t_nombrecompleto": "JOHN JAVIER MORALES ABUABARA",
+      "t_aula": "K-203",
+      "sft": "Autodesk Revit",
+      "t_facultad": "Ingenieria Civil",
+      "d_fecharequerido": "2019-02-18",
+      "d_fechasolicitud": "2019-02-06 15:39:07",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "Se requiere la instalación en licenciamiento educativo ( ver https:\/\/www.autodesk.com\/education\/free-software\/revit ) o como mínimo en versión trial de 30 días ( https:\/\/www.autodesk.com\/products\/revit\/free-trial ). "
+     },
+     {
+      "n_idinstalsoftware": 118,
+      "t_nombrecompleto": "JAIRO PENA FUENTES",
+      "t_aula": "I-202 Laboratorio Desarrollo de Software y Base de Datos",
+      "t_software": "MATLAB",
+      "t_facultad": "Ingeniería Electrónica ",
+      "d_fecharequerido": "2024-05-01",
+      "d_fechasolicitud": "2024-04-23 09:57:01",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "debe tener simulink habilitado"
+     },
+     {
+      "n_idinstalsoftware": 119,
+      "t_nombrecompleto": "JAIRO PENA FUENTES",
+      "t_aula": "D-302",
+      "t_software": "ARENA",
+      "t_facultad": "Ingeniería Ambiental  ",
+      "d_fecharequerido": "2024-05-31",
+      "d_fechasolicitud": "2024-05-28 08:05:54",
+      "t_estado": "SOLICITADO",
+      "t_observaciones": "tiene que tener 5 licencias mas"
+     }
+    
+     
+] 
+
+
+export interface SolicitudesUsuario {
+  n_idinstalsoftware:  number;
+  t_nombrecompleto:    string;
+  t_aula:              string;
+  t_software?:         string;
+  t_facultad:          string;
+  d_fecharequerido:    string;
+  d_fechasolicitud:    string;
+  d_fechainstalacion?: string;
+  t_estado?:           string;
+  t_observaciones?:    string;
+  sft?:                string;
+}
+
+export enum DFecharequeridoEnum {
+  The00000000 = "0000-00-00",
+}
+
+export enum TEstado {
+  Instalado = "INSTALADO",
+  Solicitado = "SOLICITADO",
+  Pendiente = "PENDIENTE",
+  Planeado = "PLANEADO",
+  Asignado = "ASIGNADO",
+  Resuelve = "RESUELTO",
+}

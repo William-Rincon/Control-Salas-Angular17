@@ -1,21 +1,21 @@
 import { Component, OnInit } from '@angular/core';
-import { reportlist } from './docente.Smock';
-import { CommonModule, DatePipe } from '@angular/common';
-import { Reporte } from './docente.Smock';
-import { HoraCortaPipe } from '../../hora-corta.pipe';
-import { FormsModule } from '@angular/forms';
-
 import { FooterComponent } from '../../layout/nav lateral/footer.component';
+import { DocentesComponent } from '../docentes/docentes.component';
+import { HoraCortaPipe } from '../../hora-corta.pipe';
+import { CommonModule, DatePipe } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { SolicitudesUsuario, solitlist } from '../docentes/docente.Smock';
 
 @Component({
-  selector: 'app-docentes',
+  selector: 'app-solicitud',
   standalone: true,
-  imports: [DatePipe, HoraCortaPipe, CommonModule, FormsModule,FooterComponent],
-  templateUrl: './docentes.component.html',
-  styleUrls: ['./docentes.component.css']
+  imports: [FooterComponent,DocentesComponent, HoraCortaPipe,DatePipe,CommonModule,FormsModule],
+  templateUrl: './solicitud.component.html',
+  styleUrl: './solicitud.component.css'
 })
-export class DocentesComponent implements OnInit {
-  reportlist: Reporte[] = reportlist;
+export class SolicitudComponent  implements OnInit{
+
+  solitlist: SolicitudesUsuario[] = solitlist;
   searchText = '';
   pageSize = 5;
   currentPage = 0;
@@ -25,15 +25,17 @@ export class DocentesComponent implements OnInit {
   }
 
   get filteredReportlist() {
-    return this.reportlist.filter(reporte =>
+    return this.solitlist.filter(reporte =>
       reporte.t_aula.toLowerCase().includes(this.searchText.toLowerCase()) ||
-      reporte.t_software.toLowerCase().includes(this.searchText.toLowerCase()) ||
-      reporte.t_facultad.toLowerCase().includes(this.searchText.toLowerCase()) ||
-      reporte.n_cantidad.toString().includes(this.searchText) ||
-      reporte.d_fecha.toString().includes(this.searchText) ||
-      reporte.d_hora.toString().includes(this.searchText) ||
-      reporte.d_horaini.toString().includes(this.searchText) ||
-      reporte.d_horafin.toString().includes(this.searchText)
+      reporte.t_facultad.toString().includes(this.searchText) ||
+      reporte.t_nombrecompleto.toString().includes(this.searchText) ||
+      reporte.t_software?.toString().includes(this.searchText) ||
+      reporte.sft?.toString().includes(this.searchText) ||
+      reporte.t_estado?.toString().includes(this.searchText) ||
+      reporte.t_observaciones?.toString().includes(this.searchText) ||
+      reporte.d_fecharequerido.toString().includes(this.searchText) ||
+      reporte.d_fechasolicitud.toString().includes(this.searchText)
+
     );
   }
 
@@ -70,5 +72,6 @@ export class DocentesComponent implements OnInit {
     if (this.currentPage > 0) {
       this.currentPage--;
     }
-  }
+  } 
+
 }

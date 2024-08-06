@@ -1,21 +1,20 @@
-import { Component, OnInit } from '@angular/core';
-import { reportlist } from './docente.Smock';
-import { CommonModule, DatePipe } from '@angular/common';
-import { Reporte } from './docente.Smock';
+import { Component} from '@angular/core';
+import { FooterComponent } from '../../layout/nav lateral/footer.component';
+import { DocentesComponent, } from '../docentes/docentes.component';
+import { observacion, obstlist } from '../docentes/docente.Smock';
 import { HoraCortaPipe } from '../../hora-corta.pipe';
+import { DatePipe, CommonModule} from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
-import { FooterComponent } from '../../layout/nav lateral/footer.component';
-
 @Component({
-  selector: 'app-docentes',
+  selector: 'app-observaciones',
   standalone: true,
-  imports: [DatePipe, HoraCortaPipe, CommonModule, FormsModule,FooterComponent],
-  templateUrl: './docentes.component.html',
-  styleUrls: ['./docentes.component.css']
+  imports: [FooterComponent,DocentesComponent,HoraCortaPipe,DatePipe,CommonModule,FormsModule],
+  templateUrl: './observaciones.component.html',
+  styleUrl: './observaciones.component.css'
 })
-export class DocentesComponent implements OnInit {
-  reportlist: Reporte[] = reportlist;
+export class ObservacionesComponent {
+  reportlist: observacion[] = obstlist;
   searchText = '';
   pageSize = 5;
   currentPage = 0;
@@ -27,13 +26,12 @@ export class DocentesComponent implements OnInit {
   get filteredReportlist() {
     return this.reportlist.filter(reporte =>
       reporte.t_aula.toLowerCase().includes(this.searchText.toLowerCase()) ||
-      reporte.t_software.toLowerCase().includes(this.searchText.toLowerCase()) ||
-      reporte.t_facultad.toLowerCase().includes(this.searchText.toLowerCase()) ||
-      reporte.n_cantidad.toString().includes(this.searchText) ||
+      reporte.n_idobservacionesaula.toString().includes(this.searchText) ||
       reporte.d_fecha.toString().includes(this.searchText) ||
       reporte.d_hora.toString().includes(this.searchText) ||
-      reporte.d_horaini.toString().includes(this.searchText) ||
-      reporte.d_horafin.toString().includes(this.searchText)
+      reporte. t_nombrecompleto.toString().includes(this.searchText) ||
+      reporte.t_observacion.toString().includes(this.searchText)
+
     );
   }
 
@@ -71,4 +69,5 @@ export class DocentesComponent implements OnInit {
       this.currentPage--;
     }
   }
+
 }

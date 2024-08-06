@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FooterComponent } from '../../layout/footer/footer.component';
+import { FooterComponent } from '../../layout/nav lateral/footer.component';
 
 
 @Component({

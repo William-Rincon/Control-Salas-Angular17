@@ -4,7 +4,7 @@
     style="width: 250px"
   >
     <a
-      href="/"
+      routerLink="/dashboard" routerLinkActive="active"
       class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none"
     >
       <svg class="bi me-2" width="40" height="32">
@@ -41,16 +41,7 @@
           Dashboard
         </a>
       </li>
-      <li class="nav-item">
-        <a
-          routerLink="/uso-software"
-          routerLinkActive="active"
-          class="nav-link text-white"
-        >
-          <i class="bi bi-pc-display-horizontal"></i>
-          Uso Software
-        </a>
-      </li>
+
       <li class="nav-item dropdown">
         <a
         
@@ -94,13 +85,13 @@
             <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#observacionModal">Hacer Observación</a>
           </li>
           <li>
-            <a class="dropdown-item" routerLink="/docente" routerLinkActive="active">Ver Observaciones</a>
+            <a class="dropdown-item" routerLink="/observaciones" routerLinkActive="active">Ver Observaciones</a>
           </li>
         </ul>
       </li>
       <li class="nav-item">
         <a
-          routerLink="/solicitud-instalacion"
+          routerLink="/solicitud"
           routerLinkActive="active"
           class="nav-link text-white"
         >
@@ -132,7 +123,7 @@
         aria-labelledby="dropdownUser1"
       >
         <li><a class="dropdown-item" href="#">Settings</a></li>
-        <li><a class="dropdown-item" href="#">Profile</a></li>
+        <li><a class="dropdown-item" href="#">Perfil</a></li>
         <li><hr class="dropdown-divider" /></li>
         <li><a class="dropdown-item" href="#">Cerrar</a></li>
       </ul>
@@ -152,9 +143,91 @@
         <div class="modal-body">
           <!-- Contenido del modal para hacer observación -->
           <form>
-            <div class="mb-3">
-              <label for="observacionTitulo" class="form-label">Título</label>
-              <input type="text" class="form-control" id="observacionTitulo" placeholder="Ingrese el título de la observación">
+            <div class="mb-4">
+              <table class="table table-custom"> 
+              <tr>
+                <td colspan="2"><h4>Formulario de Registro</h4></td>
+              </tr>
+
+                <thead>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td width="150"><b>Aula</b></td>
+                    <td>
+                      <select name="n_idaula" required class="form-control">
+                        <option value="">Seleccione...</option>
+                        <option value="12">Aula Biblioteca</option>
+                        <option value="46">B301</option>
+                        <option value="47">B302</option>
+                        <option value="48">B303</option>
+                        <option value="49">B305</option>
+                        <option value="29">C-102 LABORATORIO. FINANCIERO</option>
+                        <option value="44">CDT</option>
+                        <option value="1">D-300</option>
+                        <option value="2">D-301</option>
+                        <option value="3">D-302</option>
+                        <option value="4">D-303</option>
+                        <option value="5">D-304</option>
+                        <option value="6">D-305</option>
+                        <option value="7">D-403</option>
+                        <option value="8">D-404</option>
+                        <option value="18">D-405</option>
+                        <option value="34">D300</option>
+                        <option value="42">I-104 Plantas Térmicas</option>
+                        <option value="15">
+                          I-201 Laboratorio Redes y Seguridad Informática
+                        </option>
+                        <option value="31">
+                          I-201 Laboratorio Redes y Seguridad Informática
+                        </option>
+                        <option value="16">
+                          I-202 Laboratorio Desarrollo de Software y Base de Datos
+                        </option>
+                        <option value="17">I-203 Laboratorio Sistemas Operativos</option>
+                        <option value="32">I-203 Laboratorio Sistemas Operativos</option>
+                        <option value="50">J404</option>
+                        <option value="53">K-102</option>
+                        <option value="45">K-103 Laboratorio de Máquinas</option>
+                        <option value="19">K-203</option>
+                        <option value="20">K-204</option>
+                        <option value="21">K-205</option>
+                        <option value="22">K-206</option>
+                        <option value="24">
+                          K-213 Aula de Trabajo Activo Automatización
+                        </option>
+                        <option value="25">K-214 Centro Control Automatización</option>
+                        <option value="26">K-214 Zona Prototipos Automatización</option>
+                        <option value="28">K-501</option>
+                        <option value="9">K-519</option>
+                        <option value="10">K-520</option>
+                        <option value="11">K-521</option>
+                        <option value="43">K-605</option>
+                        <option value="40">K302 laboratorio de instrumentacion</option>
+                        <option value="38">K305 laboratorio de biomedica</option>
+                        <option value="39">K306 laboratorio de control</option>
+                        <option value="37">K309 laboratorio de comunicaciones</option>
+                        <option value="30">K510</option>
+                        <option value="33">K603</option>
+                        <option value="54">L-303</option>
+                        <option value="27">L203</option>
+                        <option value="35">L204</option>
+                        <option value="36">L302</option>
+                        <option value="51">L304</option>
+                        <option value="52">L305</option>
+                        <option value="41">L601</option>
+                        <option value="13">MAC K-506</option>
+                        <option value="14">MAC K-509</option>
+                        <option value="23">MAC K-516</option>
+                        <!-- Opciones del select -->
+                      </select>
+                    </td>
+                  </tr>
+
+                </tbody>
+              </table>
+          
+            
             </div>
             <div class="mb-3">
               <label for="observacionDescripcion" class="form-label">Descripción</label>

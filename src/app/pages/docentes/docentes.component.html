@@ -41,94 +41,88 @@
             <!-- <th scope="col">#</th> -->
             <th scope="col">Aula</th>
             <th scope="col">Software</th>
-            <th scope="col">Facultad</th>
-            <th scope="col"># Alumnos</th>
-            <!-- <th scope="col">Fecha Registro</th>
-        <th scope="col">Hora Registro</th> -->
+            <!-- <th scope="col">Facultad</th> -->
+            <!-- <th scope="col"># Alumnos</th> -->
+            <th scope="col">Fecha Registro</th>
+            <!-- <th scope="col">Hora Registro</th>
             <th scope="col">Hora Inicial</th>
-            <th scope="col">Hora Final</th>
+            <th scope="col">Hora Final</th> -->
             <th scope="col">Detalle</th>
           </tr>
         </thead>
         <tbody>
           <!-- <tr *ngFor="let reporte of filteredReportlist | paginate: { itemsPerPage: 5, currentPage: page }"> -->
 
-          @for (reporte of paginatedReports; track $index) {
-          <tr>
-            <!-- <th scope="row">{{ reporte.n_idsaulas }}</th> -->
-            <!-- <th >{{reporte. t_nombrecompleto}}</th> -->
-            <td>{{ reporte.t_aula }}</td>
-            <td>{{ reporte.t_software }}</td>
-            <td>{{ reporte.t_facultad }}</td>
-            <td>{{ reporte.n_cantidad }}</td>
-            <!-- <td>{{ reporte.d_fecha | date }}</td>
-        <td>{{ reporte.d_hora | horaCorta }}</td> -->
-            <td>{{ reporte.d_horaini | horaCorta }}</td>
-            <td>{{ reporte.d_horafin | horaCorta }}</td>
-            <td>
-              <!-- Button trigger modal -->
-              <button
-                type="button"
-                class="btn btn-outline-info"
-                data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop"
-              >
-                Detalle
-              </button>
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="staticBackdrop"
-                data-bs-backdrop="static"
-                data-bs-keyboard="false"
-                tabindex="-1"
-                aria-labelledby="staticBackdropLabel"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="staticBackdropLabel">
-                        Detalle Solicitud
-                      </h5>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body">
-                      ...
-                      <th scope="row">Numero solicitud:{{ reporte.n_idsaulas }}</th>
-                      <p>Docente :{{ reporte.t_nombrecompleto }}</p>
-                      <p>Aula :{{ reporte.t_aula }}</p>
-                      <p>Sotfware :{{ reporte.t_software }}</p>
-                      <p>Facultad :{{ reporte.t_facultad }}</p>
-                      <p>Numero Estiduiantes :{{ reporte.n_cantidad }}</p>
-                      <p>Fecha Solicitud :{{ reporte.d_fecha | date }}</p>
-                      <p>Hora Solicitud : {{ reporte.d_hora | horaCorta }}</p>
-                      <p> {{ reporte.d_horaini | horaCorta }}</p>
-                      <p>{{ reporte.d_horafin | horaCorta }}</p>
-                    </div>
-                    <div class="modal-footer" class="modal-dialog modal-sm">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Close
-                      </button>
-                      <button type="button" class="btn btn-primary">
-                        Understood
-                      </button>
+            <tr *ngFor="let reporte of paginatedReports; let i = index">
+              <td>{{ reporte.t_aula }}</td>
+              <td>{{ reporte.t_software }}</td>
+              <td>{{ reporte.d_fecha }}</td>
+              <!-- <td>{{ reporte.n_cantidad }}</td>
+              <td>{{ reporte.d_horaini | horaCorta }}</td>
+              <td>{{ reporte.d_horafin | horaCorta }}</td> -->
+              <td>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-outline-info"
+                  data-bs-toggle="modal"
+                  [attr.data-bs-target]="'#modalDetalle' + i" 
+                >
+                  Detalle
+                </button>
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  [id]="'modalDetalle' + i" 
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="modalDetalleLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="modalDetalleLabel">
+                          Detalle Solicitud
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <th scope="row">Numero solicitud:{{ reporte.n_idsaulas }}</th>
+                        <p>Docente :{{ reporte.t_nombrecompleto }}</p>
+                        <p>Aula :{{ reporte.t_aula }}</p>
+                        <p>Sotfware :{{ reporte.t_software }}</p>
+                        <p>Facultad :{{ reporte.t_facultad }}</p>
+                        <p>Numero Estiduiantes :{{ reporte.n_cantidad }}</p>
+                        <p>Fecha Solicitud :{{ reporte.d_fecha | date }}</p>
+                        <p>Hora Solicitud : {{ reporte.d_hora | horaCorta }}</p>
+                        <p> {{ reporte.d_horaini | horaCorta }}</p>
+                        <p>{{ reporte.d_horafin | horaCorta }}</p>
+                        <!-- Añade más detalles según sea necesario -->
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Cerrar
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                          Entendido
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </td>
-          </tr>
-          }
+              </td>
+            </tr>
         </tbody>
       </table>
     </div>
